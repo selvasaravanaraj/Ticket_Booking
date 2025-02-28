@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello! How can I assist you with your health today?", "Hi there, do you have any health questions or concerns?", "Hello, welcome! How can I help with your health-related needs?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Take care and stay healthy.", "See you later! Wishing you good health.", "Bye! If you have more health questions, feel free to ask."]
+    },
+    {
+      "tag": "symptom_check",
+      "patterns": ["I have a headache", "I feel dizzy", "I have a fever", "I'm feeling nauseous", "I have a sore throat"],
+      "responses": ["I'm sorry to hear that. It's important to consult a healthcare professional for a proper diagnosis.", "Please see a doctor for a thorough evaluation of your symptoms.", "For any symptoms you're experiencing, it's best to get a medical opinion from a healthcare provider."]
+    },
+    {
+      "tag": "diet_advice",
+      "patterns": ["What should I eat to stay healthy?", "Can you give me some diet tips?", "I want to improve my diet", "What foods are good for energy?"],
+      "responses": ["Eating a balanced diet with fruits, vegetables, whole grains, and lean proteins is key to staying healthy.", "For personalized diet advice, consider consulting a nutritionist or dietitian.", "Staying hydrated and eating a variety of foods can help you maintain good health and energy levels."]
+    },
+    {
+      "tag": "exercise_advice",
+      "patterns": ["What exercises are good for fitness?", "How can I start a workout routine?", "I want to get fit, what should I do?", "Can you suggest some exercises?"],
+      "responses": ["A mix of cardio, strength training, and flexibility exercises is great for overall fitness.", "Starting with a manageable routine and gradually increasing intensity can help you build fitness safely.", "Consider incorporating activities like walking, jogging, or yoga into your routine for better health."]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I'm feeling stressed", "I have anxiety", "I feel depressed", "I need help with my mental health", "I'm feeling overwhelmed"],
+      "responses": ["It's important to talk to a mental health professional for support.", "Consider practicing relaxation techniques and seeking counseling if needed.", "Reaching out to a therapist or counselor can help you manage stress and anxiety."]
+    },
+    {
+      "tag": "chronic_conditions",
+      "patterns": ["I have diabetes", "I'm dealing with arthritis", "I suffer from asthma", "I have hypertension", "I have chronic pain"],
+      "responses": ["Managing chronic conditions often requires ongoing medical care. Consult with your healthcare provider for personalized advice.", "Make sure to follow your treatment plan and consult with your doctor regularly.", "For chronic conditions, a combination of medication, lifestyle changes, and regular check-ups is essential."]
+    },
+    {
+      "tag": "preventive_care",
+      "patterns": ["What vaccinations do I need?", "How often should I get a check-up?", "What tests should I have regularly?", "How can I prevent illness?", "When should I get a flu shot?"],
+      "responses": ["Regular check-ups and vaccinations are important for maintaining health. Follow your doctor's recommendations.", "Screenings and preventive care vary based on age and health history. Consult with your healthcare provider for a personalized plan.", "Staying up-to-date with vaccinations and screenings can help prevent illnesses."]
+    },
+    {
+      "tag": "sleep_health",
+      "patterns": ["I have trouble sleeping", "How can I improve my sleep?", "I'm feeling tired all the time", "What are good sleep habits?", "I can't fall asleep"],
+      "responses": ["Good sleep hygiene, such as a consistent sleep schedule and a comfortable sleep environment, can improve sleep quality.", "If you have persistent sleep problems, consider consulting a sleep specialist.", "Practicing relaxation techniques before bed can help improve sleep quality."]
+    },
+    {
+      "tag": "hydration",
+      "patterns": ["How much water should I drink?", "I'm feeling dehydrated", "What are signs of dehydration?", "Can you give me tips on staying hydrated?", "How can I tell if I'm drinking enough water?"],
+      "responses": ["Aim to drink at least 8 glasses of water a day, but individual needs can vary.", "Signs of dehydration include dark urine, dry mouth, and dizziness. Increase your water intake if you notice these symptoms.", "Carrying a water bottle and drinking regularly throughout the day can help you stay hydrated."]
+    },
+    {
+      "tag": "weight_management",
+      "patterns": ["How can I lose weight?", "What are some tips for gaining weight?", "Can you help me with weight loss?", "What is a healthy weight for my height?", "How can I maintain a healthy weight?"],
+      "responses": ["A balanced diet and regular exercise are key to weight management. Consider consulting a dietitian for personalized advice.", "For healthy weight loss or gain, focus on gradual changes and a balanced approach.", "Maintaining a healthy weight involves a combination of healthy eating, regular physical activity, and lifestyle adjustments."]
+    },
+    {
+      "tag": "allergy_advice",
+      "patterns": ["I have allergies", "What should I do for seasonal allergies?", "I need help with food allergies", "How can I manage my allergies?", "What are common allergy triggers?"],
+      "responses": ["Avoiding known allergens and taking prescribed medications can help manage allergies.", "For seasonal allergies, consider using air purifiers and keeping windows closed during high pollen seasons.", "Consult with an allergist for personalized allergy management strategies."]
+    },
+    {
+      "tag": "skin_care",
+      "patterns": ["How can I take care of my skin?", "What are good skincare practices?", "I have acne, what should I do?", "Can you recommend skincare products?", "How do I protect my skin from the sun?"],
+      "responses": ["A consistent skincare routine including cleansing, moisturizing, and sun protection can improve skin health.", "For specific skin concerns like acne, consider consulting a dermatologist for tailored advice.", "Using sunscreen and avoiding excessive sun exposure are important for protecting your skin."]
+    },
+    {
+      "tag": "heart_health",
+      "patterns": ["How can I improve my heart health?", "What are signs of heart disease?", "I want to lower my cholesterol", "Can you give me tips for a healthy heart?", "What should I know about blood pressure?"],
+      "responses": ["A heart-healthy diet, regular exercise, and managing stress are key to maintaining heart health.", "If you have symptoms like chest pain or shortness of breath, seek medical attention immediately.", "Regular check-ups and monitoring your blood pressure and cholesterol levels can help manage heart health."]
+    },
+    {
+      "tag": "bone_health",
+      "patterns": ["How can I strengthen my bones?", "I need advice on bone health", "What are signs of osteoporosis?", "How can I prevent bone loss?", "Can you recommend exercises for bone health?"],
+      "responses": ["Eating a diet rich in calcium and vitamin D, along with weight-bearing exercises, supports bone health.", "For osteoporosis, regular bone density tests and medication may be necessary. Consult your healthcare provider.", "Incorporating strength training and weight-bearing exercises can help maintain bone density."]
+    },
+    {
+      "tag": "eye_health",
+      "patterns": ["How can I take care of my eyes?", "What are common eye problems?", "I need tips for eye health", "Can you recommend exercises for eye strain?", "How often should I get an eye exam?"],
+      "responses": ["Regular eye exams and protecting your eyes from excessive screen time can help maintain eye health.", "For eye strain, consider taking regular breaks from screens and using proper lighting.", "Consult an eye specialist for any persistent vision issues or eye discomfort."]
+    },
+    {
+      "tag": "dental_care",
+      "patterns": ["How often should I brush my teeth?", "What are good dental hygiene practices?", "I have a toothache, what should I do?", "Can you give me tips for healthy teeth?", "How can I prevent gum disease?"],
+      "responses": ["Brushing twice a day, flossing daily, and regular dental check-ups are essential for good oral health.", "If you have a toothache, see a dentist for an evaluation and treatment.", "Avoiding sugary foods and maintaining a proper oral hygiene routine can help prevent dental issues."]
+    },
+    {
+      "tag": "immunization",
+      "patterns": ["What vaccines do I need?", "When should I get a booster shot?", "Can you tell me about childhood vaccinations?", "What are the recommended vaccines for adults?", "How can I keep track of my immunizations?"],
+      "responses": ["Vaccinations are important for preventing diseases. Follow the schedule recommended by your healthcare provider.", "Booster shots are typically needed for certain vaccines; consult your doctor for the schedule.", "Keeping a record of your immunizations can help ensure you stay up-to-date."]
+    },
+    {
+      "tag": "menstrual_health",
+      "patterns": ["I have irregular periods", "What can I do for menstrual cramps?", "I need advice on managing PMS", "How can I track my cycle?", "What are common menstrual disorders?"],
+      "responses": ["Tracking your menstrual cycle can help identify any irregularities. For severe cramps or irregular periods, consult a healthcare provider.", "Over-the-counter pain relievers and heating pads can help manage menstrual cramps.", "Consult with a gynecologist for any concerns about your menstrual health or cycle."]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": ["What should I eat during pregnancy?", "How can I manage morning sickness?", "I need advice on prenatal care", "What are common pregnancy symptoms?", "Can you recommend exercises for pregnancy?"],
+      "responses": ["Eating a balanced diet with prenatal vitamins supports a healthy pregnancy. Consult your obstetrician for personalized advice.", "For morning sickness, small, frequent meals and staying hydrated can help.", "Regular prenatal check-ups and following your doctor’s advice are crucial for a healthy pregnancy."]
+    },
+    {
+      "tag": "child_health",
+      "patterns": ["What vaccinations does my child need?", "How can I manage my child's fever?", "What are common childhood illnesses?", "Can you give me tips for a healthy child?", "When should I schedule a pediatric check-up?"],
+      "responses": ["Following the vaccination schedule and regular pediatric check-ups are important for your child's health.", "For a fever, ensure your child stays hydrated and consult with a pediatrician if needed.", "Maintaining a balanced diet and regular physical activity supports a child's health."]
+    },
+    {
+      "tag": "elderly_care",
+      "patterns": ["How can I support elderly health?", "What are common health issues in older adults?", "I need advice on caring for elderly parents", "What should I know about senior nutrition?", "How can I help prevent falls in older adults?"],
+      "responses": ["Ensuring a balanced diet, regular exercise, and routine medical check-ups can help support elderly health.", "Common issues in older adults include arthritis, osteoporosis, and cognitive decline. Regular medical evaluations are important.", "Fall prevention strategies include home modifications and physical therapy to improve balance."]
+    },
+    {
+      "tag": "alternative_medicine",
+      "patterns": ["What are common alternative therapies?", "Can you tell me about herbal remedies?", "I want to try acupuncture, what should I know?", "What is naturopathy?", "Are there benefits to yoga and meditation?"],
+      "responses": ["Alternative therapies like acupuncture, herbal remedies, and yoga can complement traditional treatments. Consult with a professional for personalized advice.", "Naturopathy focuses on natural remedies and lifestyle changes for health. Consider consulting a licensed naturopathic doctor.", "Yoga and meditation can be beneficial for stress relief and overall well-being."]
+    },
+    {
+      "tag": "travel_health",
+      "patterns": ["What vaccinations do I need for travel?", "How can I stay healthy while traveling?", "I need advice on travel health safety", "What are common travel-related illnesses?", "Can you recommend any travel health tips?"],
+      "responses": ["Check with a travel clinic for recommended vaccinations based on your destination.", "Staying hydrated, avoiding contaminated food and water, and practicing good hygiene can help you stay healthy while traveling.", "Travel health precautions include preparing a health kit and being aware of any health advisories for your destination."]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": ["What should I do if someone is choking?", "How can I treat a burn?", "What are the steps for CPR?", "I need first aid tips for cuts and wounds", "How can I recognize a heart attack?"],
+      "responses": ["For choking, perform abdominal thrusts or seek immediate medical help if the object cannot be removed.", "For burns, cool the area with running water and cover with a sterile bandage. Seek medical care if severe.", "Learning CPR from a certified course is essential for performing it correctly in emergencies.", "Recognizing signs of a heart attack, such as chest pain or shortness of breath, is crucial for prompt medical attention."]
+    },
+    {
+      "tag": "drug_interactions",
+      "patterns": ["Can I take these two medications together?", "What should I know about drug interactions?", "How can I check for medication interactions?", "Are there any risks with combining these drugs?", "I need advice on medication safety"],
+      "responses": ["Consult with a pharmacist or healthcare provider to check for potential drug interactions.", "Using a reliable drug interaction checker tool or app can help identify risks.", "Always inform your healthcare provider about all medications and supplements you are taking to avoid interactions."]
+    }
+  ]
+}
